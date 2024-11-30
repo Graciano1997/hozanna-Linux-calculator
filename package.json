@@ -1,0 +1,30 @@
+{
+  "name": "hozanna-calculator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder --linux deb"
+  },
+  "build": {
+    "appId": "com.calculator.linux",
+    "linux": {
+      "target": [
+        "deb"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": {
+    "name": "Graciano Henrique",
+    "email": "gracianomanuelhenrique@gmail.com"
+  },
+  "license": "ISC",
+  "description": "A simple and Useful calculator App",
+  "homepage": "https://github.com/Graciano1997",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2"
+  }
+}
